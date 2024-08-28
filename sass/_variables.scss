@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+// Variables
+:root {
+    // Fonts
+    --primary-font: Montserrat, sans-serif;
+    --secondary-font: Fraunces, Georgia, serif;
+    --card-title-size: 3.2rem;
+    --card-text-size: 1.4rem;
+    --card-text-line-height: calc(23 / 14);
+    --card-type-size: 1.2rem;
+    --card-type-letter-spacing: calc(.5em / 1.2);
+    --card-former-price-size: 1.3rem;
+    --card-former-price-line-height: calc(23 / 13);
+
+    // Colours
+    --primary: #6c7289;
+    --secondary: #1c232b;
+    --tertiary: #3d8168;
+    --quaternary: white;
+    --primary-background: #f2eae2;
+    --secondary-background: white;
+    --tertiary-background: #3d8168;
+    --quaternary-background: #1a4032;
+
+    // Dimensions, margins, paddings, borders and radius
+    --overall-spacing: 2.8rem 1.6rem;
+    --card-type-margin: 1.2rem;
+    --card-size-inline: 34.3rem;
+    --card-padding: 2.4rem;
+    --card-gutter: 3.2rem;
+    --card-radius: 1rem;
+    --card-image-margin: calc(var(--card-padding) * -1) calc(var(--card-padding) * -1) 0;
+    --card-title-margin: 2.4rem 1.6rem;
+    --card-price-margin: 2.4rem 2rem;
+    --card-price-gutter: 1.9rem;
+    --card-button-padding: 1.5rem;
+    --card-button-gutter: 1.2rem;
+    --card-button-radius: .8rem;
+}
